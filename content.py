@@ -1,7 +1,12 @@
-x = 10
-y = 20.0
-z = '30.0'
+#python是動態型別
+p = 10
+print(type(p))
 
-print(type(x))
-print(type(y))
-print(type(z))
+p = 10.0
+print(type(p))
+
+p = "10.0"
+print(type(p))
+
+p = True
+print(type(p))
