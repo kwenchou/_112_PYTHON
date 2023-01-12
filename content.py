@@ -1,7 +1,7 @@
-#使用=建立變數
-n = 5 + 8
-m = 7 * 5
+x = 10
+y = 20.0
+z = '30.0'
 
-#字串的運算
-print("5+8=" + str(n))
-print("7*5=" + str(m))
+print(type(x))
+print(type(y))
+print(type(z))
