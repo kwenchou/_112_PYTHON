@@ -1,6 +1,7 @@
-chinese = eval(input('請輸入國文成績:'))
-english = eval(input('請輸入英文成績:'))
+#讓使用者輸入被除數(整數)及除數(整數，不可以是零)
+#程式會顯示兩數相除的商及餘數。
 
-#print("國文成績:" + str(chinese) + ",英文成績" + str(english)+",總成績:" + str(chinese+english))
-#字串插補
-print(f"國文成績:{chinese},英文成績{english},總成績:{chinese+english}")
+m = int(input("請輸入被除數(整數):"))
+n = int(input("除數(整數，不可以是零):"))
+
+print(f"商:{m // n},餘數:{m % n}")
