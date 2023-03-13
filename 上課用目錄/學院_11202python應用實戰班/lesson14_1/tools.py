@@ -1,5 +1,6 @@
 class Person():
     def __init__(self,name,age=20,isMan=True) -> None:
+        super().__init__()
         self.__name  =  name
         self.__age = age
         self.__isMan = isMan
