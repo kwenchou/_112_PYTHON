@@ -1,7 +1,7 @@
 class Person():
-    def __init__(self) -> None:
+    def __init__(self,n) -> None:
         super().__init__()
-        self.name = "徐國堂"
+        self.name = n
 
     #override(覆寫)父類別的method
     def __repr__(self) -> str:
