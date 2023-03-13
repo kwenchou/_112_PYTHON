@@ -1,0 +1,1 @@
+print(f"tools.py的name為{__name__}")
