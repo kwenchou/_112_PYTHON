@@ -1,11 +1,13 @@
 from lesson13_tools import Person
 
 p1 = Person("徐國堂",35,True)
-p1.name = "笨蛋"
 print(p1)
 print(p1.name)
 print(p1.age)
 print(p1.sex)
+#help(p1)
+#print(p1.__dict__)
+
 
 
 print("=============")

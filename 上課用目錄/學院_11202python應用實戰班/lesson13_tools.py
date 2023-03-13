@@ -1,21 +1,21 @@
 class Person():
     def __init__(self,name,age,isMan) -> None:
         super().__init__()
-        self.__name__ = name
-        self.__age__ = age
-        self.__isMan__ = isMan
+        self.__name = name
+        self.__age = age
+        self.__isMan = isMan
     
     @property
     def name(self):
-        return self.__name__
+        return self.__name
     
     @property
     def age(self):
-        return self.__age__
+        return self.__age
     
     @property
     def sex(self):
-        if self.__isMan__:
+        if self.__isMan:
             return "男"
         else:
             return "女"
