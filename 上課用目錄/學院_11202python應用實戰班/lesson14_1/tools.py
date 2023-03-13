@@ -28,5 +28,11 @@ class Person():
         return message
 
 class BMI(Person):
-    def __init__(self,n,**kwargs) -> None:
+    def __init__(self,n,h,w,**kwargs) -> None:
         super().__init__(n,**kwargs)
+        self.height = h
+        self.weight = w
+
+    @property
+    def bmi(self) -> float:
+        return round(self.weight / (self.height/100) ** 2,ndigits=2)
