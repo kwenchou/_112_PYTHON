@@ -1,2 +1,4 @@
 import tools
-print(f"index.py的name為{__name__}")
+
+if __name__ == "__main__":
+    print("我是專案第一個被執行的程式")

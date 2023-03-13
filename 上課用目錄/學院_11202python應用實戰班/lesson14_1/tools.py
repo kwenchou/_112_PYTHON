@@ -1,1 +1,1 @@
-print(f"tools.py的name為{__name__}")
+print(f"我是{__name__} module,我被執行過一次了")
