@@ -18,3 +18,10 @@ class Person():
             return "男"
         else:
             return "女"
+        
+    def info(self) -> str:
+        message  = ""
+        message += f"我的姓名是{self.name}\n"
+        message += f"我的age={self.age}\n"
+        message += f"我的性別是{self.sex}"
+        return message
