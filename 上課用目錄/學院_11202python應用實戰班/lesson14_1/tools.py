@@ -28,5 +28,5 @@ class Person():
         return message
 
 class BMI(Person):
-    def __init__(self,n) -> None:
-        super().__init__(n)
+    def __init__(self,n,**kwargs) -> None:
+        super().__init__(n,**kwargs)
