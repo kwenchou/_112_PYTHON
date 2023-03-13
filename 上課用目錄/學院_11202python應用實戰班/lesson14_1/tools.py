@@ -26,3 +26,7 @@ class Person():
         message += f"我的age={self.age}\n"
         message += f"我的性別是{self.sex}"
         return message
+
+class BMI(Person):
+    def __init__(self,n) -> None:
+        super().__init__(n)
