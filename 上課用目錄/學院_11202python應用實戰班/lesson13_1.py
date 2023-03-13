@@ -7,6 +7,8 @@ print(p1.age)
 print(p1.sex)
 #help(p1)
 #print(p1.__dict__)
+p1.age = 34
+print(p1.age)
 
 
 

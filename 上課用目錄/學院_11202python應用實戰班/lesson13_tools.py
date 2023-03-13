@@ -13,6 +13,11 @@ class Person():
     def age(self):
         return self.__age
     
+    @age.setter
+    def age(self,input_value):
+        if 0 < input_value <=100:
+            self.__age = input_value
+    
     @property
     def sex(self):
         if self.__isMan:
