@@ -1,8 +1,8 @@
-import requests
-from tools import download_aqi
+
+from tools import Taiwan_AQI
 
 def main():
-    download_aqi()
+    Taiwan_AQI.download_aqi()
 
 if __name__ == "__main__":
     main()
