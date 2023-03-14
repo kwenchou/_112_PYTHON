@@ -7,6 +7,7 @@ def main() -> None:
 
     s1 = Student("alice",chinese=67,math=78,english=67,isMan=False)
     print(f'總分:{s1.sum}')
+    print(s1.age)
     print(f'平均:{s1.average}')
 
 
