@@ -10,11 +10,7 @@ def main() -> None:
     print(THREE)
     print(FOUR)
     print(FIVE)
-    print(Tool.ONE)
-    print(Tool.TWO)
-    print(Tool.THREE)
-    print(Tool.FOUR)
-    print(Tool.FIVE)
+    Tool.exclaim()
 
 if __name__ == '__main__':
     main()
