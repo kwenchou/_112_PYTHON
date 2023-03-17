@@ -16,9 +16,15 @@ class Taiwan_AQI():
             #file.close()
             file = StringIO(response.text,newline='')
             csvReader = csv.reader(file)
+            next(csvReader)
+            
+            return list(csvReader)
+            '''
             for item in csvReader:
                 print(item[0])
-            file.close()
+            '''
+
+            
         else:
             raise Exception("下載失敗")
         
