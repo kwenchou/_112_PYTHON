@@ -7,6 +7,9 @@ class Taiwan_AQI():
 
         if response.ok:
             print(response.text)
+            file = open('./lesson17/aqi.csv',mode='w')
+            file.write(response.text)
+            file.close()
         else:
             raise Exception("下載失敗")
         
