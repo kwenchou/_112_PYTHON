@@ -1,1 +1,2 @@
-print(f"tools.py文件的名稱是{__name__}")
+PI = 3.1415962
+NAME = "我是tools內的常數Name"

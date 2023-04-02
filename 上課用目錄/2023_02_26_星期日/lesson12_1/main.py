@@ -1,9 +1,9 @@
 import tools
 
 def main() -> None:
-    print("這是主程式進入的執行點")
+    print(tools.PI)
+    print(tools.NAME)
 
 
-if __name__ == "__main__":
-    print("我是次專案的主要執行檔")
+if __name__ == "__main__":    
     main()
