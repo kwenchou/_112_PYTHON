@@ -1,0 +1,1 @@
+print(f"main.py文件的名稱是:{__name__}")
