@@ -4,3 +4,6 @@ NAME = "我是tools內的常數Name"
 
 def get_weather() -> str:
     return random.choice(['晴天','陰天','雨天','大太陽'])
+
+class Person:
+    pass
