@@ -6,7 +6,8 @@ def get_weather() -> str:
     return random.choice(['晴天','陰天','雨天','大太陽'])
 
 class Person:
-    def __init__(self):
+    def __init__(self,name,age,score=0):
         #實體的attribute
-        self.name = "徐國堂"
-        self.age = 40
+        self.name = name
+        self.age = age
+        self.score = score
