@@ -1,0 +1,1 @@
+print(f"tools.py文件的名稱是{__name__}")
